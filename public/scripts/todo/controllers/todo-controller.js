@@ -1,7 +1,7 @@
 (function() {
 	'use strict';
 
-	angular.module('todo')
+	angular.module('app.todo')
 		.controller('TodoController', TodoController)
 		.config(function($routeProvider) {
 			$routeProvider.when('/', {
